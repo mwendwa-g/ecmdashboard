@@ -3,7 +3,7 @@ window.onload = function() {
     checkUserRole();
 }
 
-function checkUserRole() {
+/*function checkUserRole() {
     if (!token) {
         window.location.href = '../index.html';
         return;
@@ -17,7 +17,7 @@ function checkUserRole() {
     } else {
         window.location.href = '../index.html';
     }
-}
+}*/
 
 function decodeJwt(token) {
     try {
